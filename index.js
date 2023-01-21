@@ -6,7 +6,7 @@ const connect = require('./src/connect/connect.js');
 const Auth = require("./src/routes/Auth.js");
 const cors = require("cors");
 const UserDetails = require("./src/routes/users.js");
-let app = express();
+const app = express();
 
 app.use(logger('dev'));
 app.use(express.json());
